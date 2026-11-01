@@ -1,0 +1,12 @@
+{
+  "name": "bot-tebu",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --max-old-space-size=180 --optimize-for-size --gc-global index.js"
+  },
+  "dependencies": {
+    "mineflayer": "latest",
+    "mineflayer-auto-eat": "latest"
+  }
+}
